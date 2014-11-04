@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-Install the module with: `npm install node-travis-lint`
+Install the module with: `npm install travis-lint`
 
 ```js
 var lint = require('travis-lint');
