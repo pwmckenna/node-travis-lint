@@ -16,7 +16,8 @@
   },
   "license": "MIT",
   "files": [
-    "lib"
+    "lib",
+    "cli.js"
   ],
   "keywords": [
     "yml",
