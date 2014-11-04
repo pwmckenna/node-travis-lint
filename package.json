@@ -1,6 +1,6 @@
 {
   "name": "travis-lint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/node-travis-lint.js",
   "description": "Lint your travis.yml file",
   "homepage": "https://github.com/pwmckenna/node-travis-lint",
