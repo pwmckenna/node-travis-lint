@@ -1,7 +1,7 @@
 {
   "name": "travis-lint",
   "version": "0.0.2",
-  "main": "lib/node-travis-lint.js",
+  "main": "lib/travis-lint.js",
   "description": "Lint your travis.yml file",
   "homepage": "https://github.com/pwmckenna/node-travis-lint",
   "bugs": "https://github.com/pwmckenna/node-travis-lint/issues",
@@ -19,8 +19,10 @@
     "lib"
   ],
   "keywords": [
-    "node-travis-lint",
-    ""
+    "yml",
+    "lint",
+    "travis",
+    "travis-ci"
   ],
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",
@@ -35,7 +37,7 @@
     "test": "grunt"
   },
   "bin": {
-    "node-travis-lint": "cli.js"
+    "travis-lint": "cli.js"
   },
   "preferGlobal": "true",
   "dependencies": {
