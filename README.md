@@ -17,8 +17,8 @@ lint(fs.readFileSync('.travis.yml'), function (err, warnings) {
 Install with cli command
 
 ```sh
-$ npm install -g node-travis-lint
-$ node-travis-lint .travis.yml
+$ npm install -g travis-lint
+$ travis-lint .travis.yml
 ```
 
 ## Contributing
