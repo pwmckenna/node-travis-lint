@@ -2,7 +2,7 @@
 
 'use strict';
 
-var lint = require('./lib/node-travis-lint');
+var lint = require('./lib/travis-lint');
 var fs = require('fs');
 
 var userArgs = process.argv;
