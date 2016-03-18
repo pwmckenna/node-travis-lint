@@ -30,6 +30,7 @@ lint(fs.readFileSync(searchParam), function (err, res) {
     if (res.length) {
         for (var i = 0; i < res.length; ++i) {
             console.warn(res[i].message);
+            process.exit(1);
         }
     } else {
         console.log('.travis.yml looks great.');
